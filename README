@@ -1,0 +1,218 @@
+quick-lounge-applet
+-------------------------------------------
+Application launcher applet for the GNOME Panel
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  GConf2-2.12.1-1
+  gnome-panel-2.14.1-1
+  gtk2-x11-2.8.17-1
+  libX11_6-1.0.0-2
+  libglade2-2.5.1-1
+  libgnome-desktop2-2.14.1-1
+  libgnome-menu2-2.14.0-1
+  libgnome2-2.14.1-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.93-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  intltool-0.34.2-1
+  libtool1.5-1.5.22-1
+  make-3.80-1
+  pkg-config-0.20-1
+  scrollkeeper-0.3.14-2
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://quick-lounge.sourceforge.net/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/quick-lounge-applet/
+
+-------------------------------------------
+
+Build instructions:
+  unpack quick-lounge-applet-2.12.1-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./quick-lounge-applet-2.12.1-1.cygport all
+
+This will create:
+  /usr/src/quick-lounge-applet-2.12.1-1-src.tar.bz2
+  /usr/src/quick-lounge-applet-2.12.1-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/quick-lounge.schemas
+  /etc/postinstall/quick-lounge-applet.sh
+  /etc/preremove/quick-lounge-applet.sh
+  /usr/lib/bonobo/servers/GNOME_QuickLoungeApplet_Factory.server
+  /usr/lib/panel-2.0/quick-lounge-applet.exe
+  /usr/share/doc/Cygwin/quick-lounge-applet-2.12.1.README
+  /usr/share/doc/quick-lounge-applet-2.12.1/AUTHORS
+  /usr/share/doc/quick-lounge-applet-2.12.1/COPYING
+  /usr/share/doc/quick-lounge-applet-2.12.1/ChangeLog
+  /usr/share/doc/quick-lounge-applet-2.12.1/INSTALL
+  /usr/share/doc/quick-lounge-applet-2.12.1/NEWS
+  /usr/share/gnome-2.0/ui/GNOME_QuickLoungeApplet.xml
+  /usr/share/gnome/help/quick-lounge/C/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/C/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/C/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/C/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/C/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/C/legal.xml
+  /usr/share/gnome/help/quick-lounge/C/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/de/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/de/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/de/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/de/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/de/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/de/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/de/legal.xml
+  /usr/share/gnome/help/quick-lounge/de/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/es/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/es/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/es/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/es/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/es/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/es/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/es/legal.xml
+  /usr/share/gnome/help/quick-lounge/es/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/fr/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/fr/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/fr/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/fr/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/fr/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/fr/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/fr/legal.xml
+  /usr/share/gnome/help/quick-lounge/fr/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/it/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/it/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/it/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/it/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/it/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/it/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/it/legal.xml
+  /usr/share/gnome/help/quick-lounge/it/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/ja/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/ja/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/ja/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/ja/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/ja/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/ja/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/ja/legal.xml
+  /usr/share/gnome/help/quick-lounge/ja/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/ko/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/ko/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/ko/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/ko/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/ko/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/ko/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/ko/legal.xml
+  /usr/share/gnome/help/quick-lounge/ko/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/sv/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/sv/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/sv/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/sv/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/sv/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/sv/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/sv/legal.xml
+  /usr/share/gnome/help/quick-lounge/sv/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/zh_CN/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/zh_CN/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/zh_CN/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/zh_CN/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/zh_CN/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/zh_CN/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/zh_CN/legal.xml
+  /usr/share/gnome/help/quick-lounge/zh_CN/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/zh_HK/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/zh_HK/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/zh_HK/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/zh_HK/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/zh_HK/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/zh_HK/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/zh_HK/legal.xml
+  /usr/share/gnome/help/quick-lounge/zh_HK/quick-lounge.xml
+  /usr/share/gnome/help/quick-lounge/zh_TW/figures/quick-lounge_down.png
+  /usr/share/gnome/help/quick-lounge/zh_TW/figures/quick-lounge_end.png
+  /usr/share/gnome/help/quick-lounge/zh_TW/figures/quick-lounge_more.png
+  /usr/share/gnome/help/quick-lounge/zh_TW/figures/quick-lounge_start.png
+  /usr/share/gnome/help/quick-lounge/zh_TW/figures/quick-lounge_up.png
+  /usr/share/gnome/help/quick-lounge/zh_TW/figures/quick-lounge_window.png
+  /usr/share/gnome/help/quick-lounge/zh_TW/legal.xml
+  /usr/share/gnome/help/quick-lounge/zh_TW/quick-lounge.xml
+  /usr/share/locale/az/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/bg/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/bs/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/ca/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/cs/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/de/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/el/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/es/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/fi/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/fr/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/gl/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/gu/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/hr/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/hu/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/it/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/ja/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/ko/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/ms/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/ne/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/nl/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/no/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/pa/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/pl/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/pt/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/ru/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/rw/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/sk/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/sr/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/sv/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/uk/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/quick-lounge-applet.mo
+  /usr/share/omf/quick-lounge-applet/quick-lounge-C.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-de.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-es.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-fr.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-it.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-ja.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-ko.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-sv.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-zh_CN.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-zh_HK.omf
+  /usr/share/omf/quick-lounge-applet/quick-lounge-zh_TW.omf
+  /usr/share/pixmaps/quick-lounge-applet.png
+  /usr/share/quick-lounge/glade/quick-lounge.glade
+
+------------------
+
+Port Notes:
+
+----- version 2.12.1-1 -----
+Version bump for GNOME 2.12.
+
+----- version 2.10.1-1 -----
+Version bump for GNOME 2.10.
+
+----- version 2.1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

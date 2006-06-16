@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin GConf2 gnome-panel gtk2-x11 libX11_6 libglade2 libgnome-desktop2 libgnome-menu2 libgnome2
+sdesc: "Application launcher applet for the GNOME Panel"
+ldesc: "Application launcher applet for the GNOME Panel"
