@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Panel application launcher"
+HOMEPAGE="http://quick-lounge.sourceforge.net/"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/panel-2.0"
